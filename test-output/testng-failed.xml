@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ s1 ]">
+  <test name=" t ">
+    <classes>
+      <class name="TabScroll_Progm.TabScroll"/>
+    </classes>
+  </test> <!--  t  -->
+  <test name=" t1 ">
+    <classes>
+      <class name="TabScroll_Progm.Scrolling"/>
+    </classes>
+  </test> <!--  t1  -->
+  <test name=" t2 ">
+    <classes>
+      <class name="TabScroll_Progm.Tabs"/>
+    </classes>
+  </test> <!--  t2  -->
+  <test name=" t2 (failed)">
+    <classes>
+      <class name="TabScroll_Progm.Tabs">
+        <methods>
+          <include name="tab"/>
+        </methods>
+      </class> <!-- TabScroll_Progm.Tabs -->
+    </classes>
+  </test> <!--  t2 (failed) -->
+</suite> <!-- Failed suite [ s1 ] -->
